@@ -28,3 +28,13 @@ body {
   color: var(--text-color);
   font-family: "Poppins", sans-serif;
 }
+
+.container {
+  display: flex;
+  background: var(--primary-color);
+}
+
+.others {
+  flex: 4;
+  background: var(--default-color);
+}
