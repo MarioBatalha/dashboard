@@ -31,5 +31,5 @@ body {
 
 .container {
   display: flex;
-  background: var(--primary-color);
+  background: var(--default-color);
 }

@@ -1,0 +1,63 @@
+.featured {
+    width: 100%;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.featured__item {
+    flex: 1;
+    margin: 0 2rem;
+    padding:2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.featured__item:nth-child(1) {
+    background: var(--badge-color);
+}
+
+.featured__item:nth-child(2) {
+    background: var(--income-color);
+}
+
+.featured__item:nth-child(3) {
+    background: var(--outgoing-color);
+}
+
+.featured__title {
+    font-size: 18pt;
+}
+
+.featured__money__container {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.featured__money {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.featured__money__rate {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.featured__icon {
+    font-size: 12pt;
+    margin-left: 1px;
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.featured__sub {
+    color: var(--text-color);
+}
