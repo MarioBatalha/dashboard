@@ -1,5 +1,5 @@
-import "./style.css";
-import { NotificationsNone, Language, Settings } from "@material-ui/icons";
+import './style.css';
+import {NotificationsNone, Language, Settings} from '@material-ui/icons';
 
 const Topbar = () => {
   return (

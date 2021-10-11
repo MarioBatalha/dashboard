@@ -33,8 +33,3 @@ body {
   display: flex;
   background: var(--primary-color);
 }
-
-.others {
-  flex: 4;
-  background: var(--default-color);
-}
