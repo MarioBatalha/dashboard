@@ -1,0 +1,9 @@
+.userList {
+    flex: 4;
+}
+
+h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    margin-top: 2rem;
+}

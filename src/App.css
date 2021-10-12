@@ -9,6 +9,7 @@
     --outgoing-color: #FFEFE7;
     --text-color: #9FA2AA;
     --notifications-color: #FF0000;
+    --form-background: #2C3E50;
 }
 
 *,
@@ -29,7 +30,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.container {
-  display: flex;
-  background: var(--default-color);
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,17 +1,37 @@
 import './App.css';
-import Topbar from './components/Topbar';
-import Sidebar from './components/Sidebar';
 import Home  from './pages/Home';
+import UserList from './pages/UserList';
+import Landing from './pages/Landing';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 
 const App = () => {
   return (
-    <>
-      <Topbar />
-      <div className="container">
-        <Sidebar />
-        <Home /> 
-      </div>
-    </>
+    <Router>
+        <Switch>
+          <Route path="/" exact>
+            <Landing /> 
+          </Route>
+          <Route path="/Home">
+            <Home /> 
+          </Route>
+          <Route path="/Users">
+            <UserList /> 
+          </Route>
+          <Route path="/Login">
+            <Login /> 
+          </Route>
+          <Route path="/Sign-up">
+            <Signup /> 
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 

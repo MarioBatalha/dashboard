@@ -1,9 +1,14 @@
 .home {
   flex: 4;
+  width: 50%;
   background: var(--primary-color);
 }
 
 .home__widgets {
   display: flex;
   margin: 2rem;
+}
+
+.container {
+  display: flex;
 }
