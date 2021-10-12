@@ -1,51 +1,52 @@
 .sidebar {
-    flex: 1;
-    height: calc(100vh - 50px);
-    position: sticky;
-    top: 2rem;
+  flex: 1;
+  height: calc(100vh - 50px);
+  position: sticky;
+  top: 2rem;
 }
 
 .sidebar__wrapper {
-    padding: 2rem;
-    color: var(--secondary-color);
+  padding: 2rem;
+  color: var(--secondary-color);
 }
 
 .sidebar__menu {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .sidebar__title {
-    font-size: 12pt;
-    margin: 0.5rem;
-    color: var(--text-color);
+  font-size: 12pt;
+  margin: 0.5rem;
+  color: var(--text-color);
 }
 
 .sidebar__list {
-    list-style: none;
-    padding: 0.3rem;
+  list-style: none;
+  padding: 0.3rem;
 }
 
 .sidebar__list__item {
-    padding: 0.3rem;
-    width: 10rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    border-radius: 0.2rem;
-    color: var(--text-color);
+  padding: 0.3rem;
+  width: 10rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 0.2rem;
+  color: var(--text-color);
 }
 
 .sidebar__icon {
-    color: var(--secondary-color);
-    margin-right: 1rem;
-    font-size: 12pt;
+  color: var(--secondary-color);
+  margin-right: 1rem;
+  font-size: 12pt;
 }
 
 .sidebar__icon:hover {
-    color: var(--default-color);
+  color: var(--default-color);
 }
 
-.sidebar__list__item.active, .sidebar__list__item:hover {
-    background: var(--secondary-color);
-    color: var(--default-color);
+.sidebar__list__item.active,
+.sidebar__list__item:hover {
+  background: var(--secondary-color);
+  color: var(--default-color);
 }

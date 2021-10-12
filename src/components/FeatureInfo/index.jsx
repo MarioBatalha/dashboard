@@ -1,5 +1,5 @@
 import './style.css';
-import { ArrowDownward, ArrowUpward } from '@material-ui/icons';
+import {ArrowDownward, ArrowUpward} from '@material-ui/icons';
 const FeatureInfo = () => {
   return (
     <div className="featured">
