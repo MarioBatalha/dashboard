@@ -1,9 +1,9 @@
 .home {
-    flex: 4;
-    background: var(--primary-color);
+  flex: 4;
+  background: var(--primary-color);
 }
 
 .home__widgets {
-    display: flex;
-    margin: 2rem;
+  display: flex;
+  margin: 2rem;
 }
