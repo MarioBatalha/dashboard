@@ -25,6 +25,7 @@ const InputWithIcon = () => {
       }}
       fullWidth
       label="Password"
+      type="password"
       id="fullWidth" />
     </Box>
   );
