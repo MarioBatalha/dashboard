@@ -1,6 +1,6 @@
 import './style.css';
 
-import InputWithIcon from '../../components/InputWithIcon';
+import InputRegister from '../../components/InputRegister';
 
 
 const Signup = () => {
@@ -12,7 +12,7 @@ const Signup = () => {
            </div>
            <div className="signup__form">
                <h1>Registro</h1>
-               <InputWithIcon />
+               <InputRegister />
            </div>
         </div>
     )

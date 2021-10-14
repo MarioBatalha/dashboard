@@ -17,7 +17,7 @@ const InputWithIcon = () => {
         marginTop: '1rem',
       }}
       fullWidth
-      label="Nome do usuário"
+      label="email"
       id="fullWidth" />
       <TextField 
       sx={{
