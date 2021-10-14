@@ -17,7 +17,7 @@ const Sidebar = () => {
             <h3 className="sidebar__title">Menu</h3>
             <li className="sidebar__list__item">
               <AccountBalanceWallet className="sidebar__icon" />
-              Minha carteira
+              Carteira
             </li>
             <li className="sidebar__list__item">
               <Timeline className="sidebar__icon" />

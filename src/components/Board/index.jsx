@@ -5,7 +5,7 @@ const Board = () => {
     <div className="board">
       <span className="board__title">Quadros de vendas</span>
       <table className="board__table">
-        <tr>
+        <tr className="board__table__i">
           <th>Producto</th>
           <th>Preço</th>
           <th>Desconto</th>
