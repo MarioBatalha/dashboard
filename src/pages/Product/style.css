@@ -1,0 +1,12 @@
+h5 {
+    margin: 2rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+    width: 50%;
+}

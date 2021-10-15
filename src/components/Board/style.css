@@ -18,7 +18,7 @@
   border-radius: 10px;
   border-collapse: collapse;
   background: var(--secondary-color);
-  color: var(--default-color)
+  color: var(--default-color);
 }
 
 
@@ -37,6 +37,7 @@ tr {
 th {
   padding: 1rem;
   text-align: center;
+  color: var(--default-color);
 }
 
 td {
@@ -47,5 +48,6 @@ td {
   text-align: center;
   padding: 1rem;
   margin: 1rem;
+  color: var(--default-color);
 }
 

@@ -1,6 +1,5 @@
 import './style.css';
 import Auth from '../../asset/img//auth.png';
-
 import InputWithIcon from '../../components/InputWithIcon';
 
 

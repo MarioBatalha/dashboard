@@ -4,6 +4,7 @@ import UserList from './pages/UserList';
 import Landing from './pages/Landing';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Product from './pages/Product';
 
 import {
   BrowserRouter as Router,
@@ -29,6 +30,9 @@ const App = () => {
           </Route>
           <Route path="/Sign-up">
             <Signup /> 
+          </Route>
+          <Route path="/Product">
+            <Product /> 
           </Route>
         </Switch>
     </Router>

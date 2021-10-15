@@ -41,13 +41,3 @@
   margin-right: 1rem;
   font-size: 12pt;
 }
-
-.sidebar__icon:hover {
-  color: var(--default-color);
-}
-
-.sidebar__list__item.active,
-.sidebar__list__item:hover {
-  background: var(--secondary-color);
-  color: var(--default-color);
-}
