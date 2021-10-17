@@ -7,7 +7,7 @@ const Signup = () => {
     return (
         <div className="signup">
            <div className="signup__info">
-               <h4>Seja bem-bindo a nossa comunidade</h4>
+               <h4>Bem-bindo a nossa comunidade</h4>
                <p className="signup__text">Cadastre-se e comece a desfrutar dos nossos planos</p>
            </div>
            <div className="signup__form">
