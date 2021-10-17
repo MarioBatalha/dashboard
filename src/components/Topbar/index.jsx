@@ -1,8 +1,15 @@
+import { useHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom'
 import './style.css';
 import {NotificationsNone, ExitToApp, ControlPoint} from '@material-ui/icons';
 
 const Topbar = () => {
+  const history = useHistory();
+
+  function handleLogout() {
+    localStorage.clear();
+    history.push("/");
+  }
   return (
     <div className="topbar">
       <div className="topbar__wrapper">
@@ -19,7 +26,7 @@ const Topbar = () => {
               <ControlPoint />
             </Link>
           </div>
-          <div className="topbar__icon__container">
+          <div className="topbar__icon__container" onClick={handleLogout}>
             <ExitToApp />
           </div>
         </div>
