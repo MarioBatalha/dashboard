@@ -17,7 +17,7 @@ const Home = () => {
   }).format(monthlyPrice);
 
  const handlePlan = (dateNow, monthlyPriceFormatted) => {
-   if(dateNow.getDay() > 31) {
+   if(dateNow.getDay() <= 30 && dateNow.getDay() <= 31) {
 
    }
  }
