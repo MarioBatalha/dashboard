@@ -7,6 +7,21 @@ import Topbar from '../../components/Topbar';
 import Sidebar from '../../components/Sidebar';
 
 const Home = () => {
+  const dateNow = new Date();
+  const monthlyPrice = 13.6550;
+
+  const dateNowFormatted = new Intl.DateTimeFormat('pt-AO').format(dateNow);
+  const monthlyPriceFormatted = new Intl.NumberFormat('pt-AO', {
+    style: 'currency',
+    currency: 'AOA'
+  }).format(monthlyPrice);
+
+ const handlePlan = (dateNow, monthlyPriceFormatted) => {
+   if(dateNow.getDay() > 31) {
+
+   }
+ }
+
   return (
     <>
       <Topbar />
